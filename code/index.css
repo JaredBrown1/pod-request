@@ -107,3 +107,55 @@ button:hover {
 	position: relative;
 	margin-top: -60px;
 }
+
+/* Tablet Styles */
+@media (min-width: 768px) {
+	.all-content {
+		margin-top: -60px;
+		padding-left: 30px;
+	}
+
+	.title-container {
+		margin-top: 120px;
+	}
+
+	.main-container {
+		margin-top: -450px;
+		width: 635px;
+		height: 509px;
+	}
+
+	.main-container h1 {
+		font-size: 48px;
+		line-height: 48px;
+	}
+
+	.image-container img {
+		margin-top: -70px;
+		width: 491px;
+		height: 767px;
+		padding-bottom: 20px;
+	}
+
+	.email {
+		width: 427px;
+	}
+
+	.btn-container {
+		padding-right: 30px;
+	}
+
+	.btn {
+		width: 162px;
+	}
+
+	.dot-img {
+		display: flex;
+		justify-content: flex-start;
+		padding-top: 130px;
+	}
+
+	.dot-img img {
+		margin-top: 0px;
+	}
+}
