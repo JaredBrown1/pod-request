@@ -109,7 +109,7 @@ button:hover {
 }
 
 /* Tablet Styles */
-@media (min-width: 768px) {
+@media (min-width: 481px) and (max-width: 767px) {
 	.all-content {
 		margin-top: -60px;
 		padding-left: 30px;
@@ -157,5 +157,22 @@ button:hover {
 
 	.dot-img img {
 		margin-top: 0px;
+	}
+}
+
+/* Mobile styling */
+@media (max-width: 480px) {
+	body {
+		background-image: url("./images/image-host.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+		-webkit-background-size: cover;
+		background-size: cover;
+		filter: brightness(40%);
+	}
+
+	.image-container img {
+		display: none;
 	}
 }
